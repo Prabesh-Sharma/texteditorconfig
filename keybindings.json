@@ -37,8 +37,8 @@
     },
     // EXTRA
     {
-        "key": "ctrl+z",
-        "command": "workbench.action.toggleZenMode"
+        "key": "ctrl+k",
+        "command": "workbench.action.toggleFullScreen"
     },
     {
         "key": "capslock",
