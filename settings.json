@@ -18,6 +18,10 @@
   "vim.normalModeKeyBindingsNonRecursive": [
     //added by me
     {
+    "before": ["leader", "z"],
+    "commands": ["editor.toggleFold"]
+    },
+    {
       "before": ["<C-u>"],
       "after": ["<C-u>", "z", "z"]
     },
@@ -120,7 +124,7 @@
     },
     // toggle comment selection
     {
-      "before": ["leader", "c"],
+      "before": ["/"],
       "commands": ["editor.action.commentLine"]
     }
   ],
